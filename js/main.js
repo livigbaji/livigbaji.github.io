@@ -136,5 +136,14 @@ if($().circleProgress){
 	});
 }
 
+// const tempFn = doT.template("<h1>Here is a sample template {{=it.foo}}</h1>");
+const tempFn = doT.template(`
+	<div class="single-progress-item">
+		<div class="progress-bar-style" data-progress="{{=it.percent}}"></div>
+		<p>{{=it.skill}}</p>
+	</div>
+`)
+const compiledExperience = tempFn({skill: 'with doT', percent: 89});
+// document.querySelector("#skills").innerHTML = compiledExperience
 })(jQuery);
 
