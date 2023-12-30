@@ -242,6 +242,7 @@ ol {
 	display: table;
 	width: 100%;
 	background: #40424a;
+	margin-top: 10px;
 }
 
 .fact-box.trans {
