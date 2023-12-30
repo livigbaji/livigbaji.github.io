@@ -693,6 +693,10 @@ ol {
 	line-height: normal;
 }
 
+.cvlist li{
+	margin-bottom: 10px;
+}
+
 /*---------------------
 	Home 2 Style
 -----------------------*/
